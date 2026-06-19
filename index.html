@@ -14,6 +14,31 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<script>
+if (window.innerWidth > 768) {
+    document.body.innerHTML = `
+    <div style="
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        background:#111;
+        color:white;
+        font-family:Arial,sans-serif;
+        text-align:center;
+        padding:20px;
+    ">
+        <div>
+            <h1>📱</h1>
+            <h2>Откройте приглашение на телефоне</h2>
+            <p>Данная версия сайта доступна только для мобильных устройств.</p>
+        </div>
+    </div>`;
+}
+</script>
+
+<div class="noise"></div>
+<header class="topbar">
   <div class="noise"></div>
 
   <header class="topbar">
